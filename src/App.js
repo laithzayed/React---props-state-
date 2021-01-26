@@ -14,7 +14,7 @@ class App extends Component {
 
   switchNameHandler = (newName) => {
     // console.log('Was clicked!');
-    // DON'T DO THIS: this.state.persons[0].name = 'Maximilian';
+    // DON'T DO THIS: this.state.persons[0].name = 'Laith Zayed';
     this.setState( {
       persons: [
         { name: newName, work: 'Web & Mobile Developer' },
@@ -27,9 +27,9 @@ class App extends Component {
   nameChangedHandler = (event) => {
     this.setState( {
       persons: [
-        { name: 'Max', work: 28 },
-        { name: event.target.value, work: 29 },
-        { name: 'Stephanie', work: 26 }
+        { name: 'Laith', work: 'AI Developer & Scientist ' },
+        { name: event.target.value, work: 'stay Tuned' },
+        { name: 'Roney', work: 'Football old player' }
       ]
     } )
   }
